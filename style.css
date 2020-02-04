@@ -1,17 +1,22 @@
-@import url(https://fonts.googleapis.com/css?family=Source+Code+Pro&display: 200, 300, 400, 500, 700, 900);
+@import url(https://fonts.googleapis.com/css?family=Source+Code+Pro:200,300,400,500,600,700,900);
 
 body {
   background-color: #f69680;
   color: #2e1263;
-  font-family: "source code pro";
+  font-family: "Source Code Pro";
   font-weight: 200;
+}
+
+img {
+   height: 500px;
+   border-radius: 50%;
 }
 
 h1 {
   font-weight: 200;
   font-size: 70px;
   text-transform: uppercase;
-  border-top: #2e1263;
+  border-top: 5px solid;
 }
 
 #container {
@@ -27,12 +32,13 @@ button{
   padding: 20px 25px;
   background-color: #f69680;
   color: #2e1263;
-  font: 14px;
+  font-size: 14px;
   text-align: center;
   border: 1px solid #2e1263;
   text-transform: uppercase;
   letter-spacing: 4px;
   text-decoration: none;
+  outline: none;
 }
 
 button:hover {
